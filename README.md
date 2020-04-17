@@ -1,5 +1,6 @@
 # DETAN
-DETAN- A full functional internet media website for entertainment content and latest news on sports, blogging, humor, travel, technology, lifestyle, humor, opinions from leading columnists.  
+DETAN- A full functional internet media website for entertainment content and latest news on sports, blogging, humor, travel, technology, lifestyle, humor, opinions from leading columnists. 
+(To be updated)
 
 <br>
 <br>
