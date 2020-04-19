@@ -1,7 +1,7 @@
 # DETAN
 DETAN- A full functional internet media website for entertainment content and latest news on sports, blogging, humor, travel, technology, lifestyle, humor, opinions from leading columnists. 
 <br>
-HTML5, CSS3, Jquery, JavaScript, Node.js, MongoDB, Express.js
+HTML5, CSS3, CSS Flexbox, Jquery, JavaScript, Node.js, MongoDB, Express.js
 (To be updated)
 
 <br>
