@@ -18,20 +18,19 @@ Media: Smartphones
 <br>
 
 <br>
-<hr>
-
 
 ![](https://raw.githubusercontent.com/taneajoshi/DETAN/master/images/lookup2.png)
 
 <br>
 
 <br>
+<hr>
 Media: Smartphones
 
 
 <br>
 
-![](https://raw.githubusercontent.com/taneajoshi/DETAN/master/images/lookup3.png
+![](https://raw.githubusercontent.com/taneajoshi/DETAN/master/images/lookup3.png)
 
 <br>
 TODO: <br>
