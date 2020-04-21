@@ -17,6 +17,7 @@ header{
 
 
 .logo{
+    outline: none;
     color: rgb(255, 245, 245);
     padding: 20.8px;
     font-size: 20px;
@@ -78,6 +79,7 @@ nav a:after{
 .bar{
     display: none;
 }
+
 nav a:hover:after{
     transform: scaleX(1);
 }
@@ -270,6 +272,7 @@ border: 1px solid rgba(17, 17, 17, 0.89);
     @media (max-width:827px){
         .onlogo{
             padding-top: 20px;
+            font-size: 22px;
 
         }
         
@@ -341,7 +344,7 @@ border: 1px solid rgba(17, 17, 17, 0.89);
        
    }
    
-        
+    
 
         .recent{
             font-family: serif;
@@ -455,10 +458,67 @@ h3{
    
 }
 
+@media(max-width:460px){
+    a:focus{
+        background-color:transparent;
+    }
+   
+    a.icon:hover{
+        background-color: transparent;
+        color: white;
+    }
+    .articleleft img{
+        width: 260px;
+        height: 230px;
+        padding: 10.5px;
+        border-radius:1.7px;
+        margin-left:60px ;
+
+        }
+        .container{
+            margin-left: 13px;
+        }
+        .recent{
+            font-size: 25px;
+        }
+        h3{
+            font-size: 29.5px;
+        }
+        .date{
+            font-size:15px;
+        }
+        .author{
+            font-size:15px;
+        }
+        .category{
+            font-size:15px;
+        }
+        .discription{
+            font-size: 20.8px;
+        }
+        .logo{
+            padding-top: 23px;
+        }
+        
+        a.onlogo{
+        text-decoration: none;
+        outline: none;
+        }
+        .onlogo{
+            font: none;
+            font-size: 22px;
+        }
+        .socials{
+            padding-top: 25px;
+        }
+        footer p{
+            padding-top: 28px;
+        }
+}
 @media(max-width:400px){
     .articleleft img{
-        width: 300px;
-        height: 260px;
+        width: 260px;
+        height: 230px;
         padding: 10.5px;
         border-radius:1.7px;
         margin-left:45px ;
@@ -471,7 +531,7 @@ h3{
             font-size: 25px;
         }
         h3{
-            font-size: 32.5px;
+            font-size: 29.5px;
         }
         .date{
             font-size:15px;
@@ -483,10 +543,10 @@ h3{
             font-size:15px;
         }
         .discription{
-            font-size: 23.8px;
+            font-size: 20.8px;
         }
         .logo{
-            padding-top: 22px;
+            padding-top: 23px;
         }
  
         .socials{
