@@ -15,7 +15,6 @@ header{
     justify-content: space-between;
 }
 
-
 .logo{
     outline: none;
     color: rgb(255, 245, 245);
@@ -459,9 +458,19 @@ h3{
 }
 
 @media(max-width:460px){
-    a:focus{
-        background-color:transparent;
+   .logo a{
+       width: 20%;
+       margin-left: 140px;
+       
+   }
+    
+    
+    a.nostyle:link {
+        text-decoration: inherit;
+        color: inherit;
+        cursor: auto;
     }
+    
    
     a.icon:hover{
         background-color: transparent;
@@ -482,7 +491,7 @@ h3{
             font-size: 25px;
         }
         h3{
-            font-size: 29.5px;
+            font-size: 27.8px;
         }
         .date{
             font-size:15px;
@@ -503,6 +512,10 @@ h3{
         a.onlogo{
         text-decoration: none;
         outline: none;
+        }
+        .onlogo:hover{
+            text-decoration: none;
+           
         }
         .onlogo{
             font: none;
@@ -531,7 +544,7 @@ h3{
             font-size: 25px;
         }
         h3{
-            font-size: 29.5px;
+            font-size: 27.5px;
         }
         .date{
             font-size:15px;
@@ -543,7 +556,7 @@ h3{
             font-size:15px;
         }
         .discription{
-            font-size: 20.8px;
+            font-size: 19.8px;
         }
         .logo{
             padding-top: 23px;
