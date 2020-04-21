@@ -61,6 +61,9 @@ nav a{
 /* nav a:hover:before{
     transform: scaleX(1);
 } */
+.hide-desktop{
+    display: none;
+}
 
 nav a:after{
     content: "";
@@ -177,6 +180,26 @@ article{
 }
 
 
+.searchbox.sh{
+    width: 100%;
+    position: relative;
+}
+
+.searchbox.sh label{
+    position:absolute;
+    z-index: 100;
+    left: 42px;
+    top: 23px;
+
+}
+
+.searchbox.sh input{
+border: 1px solid rgba(17, 17, 17, 0.89);
+ border-radius: 15px;
+ padding:6px 0px 6px 25px;
+ margin: 16px 0px 0px 35px;   
+ outline: none;
+}
 .searchbox{
     width: 100%;
     position: relative;
@@ -458,13 +481,25 @@ h3{
 }
 
 @media(max-width:460px){
+    .hide-desktop{
+        display: block;
+        padding-bottom: 15px;
+    }
+    .hide-desktop input{
+        width: 76%;
+        
+    }
+    
+
    .logo a{
        width: 22%;
        margin-left: 140px;
        
    }
     
-    
+    a.more{
+        padding-left: 55px;
+    }
     a.nostyle:link {
         text-decoration: inherit;
         color: inherit;
@@ -529,6 +564,7 @@ h3{
         }
 }
 @media(max-width:400px){
+   
     .articleleft img{
         width: 260px;
         height: 230px;
