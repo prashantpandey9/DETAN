@@ -710,6 +710,7 @@ h3{
         padding-top: 100px;
     }
     .articleleft img{
+        margin-top: 10px;
         width: 260px;
         height: 220px;
     }
@@ -724,6 +725,9 @@ h3{
    .nonicons{
        width: 50%;
        margin-left: 1px;
+   }
+   .recent{
+       padding-bottom: 1px;
    }
    .socials{
        width: 10%;
