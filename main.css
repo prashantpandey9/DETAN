@@ -17,7 +17,7 @@ header{
 }
 .modal{
     padding-top: 100px;
-    -webkit-backdrop-filter:blur(1px);
+    -webkit-backdrop-filter:blur(3px);
     backdrop-filter:blur(3.5px);
    
     }
@@ -706,6 +706,9 @@ h3{
 }
 
 @media(max-width:370px){
+    .modal{
+        padding-top: 100px;
+    }
     .articleleft img{
         width: 260px;
         height: 220px;
@@ -713,8 +716,14 @@ h3{
     .container{
         margin-left: 10px;
     }
+    footer p{
+        width: 40%;
+        padding-top: 35px;
+
+    }
    .nonicons{
-       width: 30%;
+       width: 50%;
+       margin-left: 1px;
    }
    .socials{
        width: 10%;
